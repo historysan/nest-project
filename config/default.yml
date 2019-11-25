@@ -1,0 +1,15 @@
+server:
+  port: 7000
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'taskmanagment'
+  host: 'localhost'
+  username: 'postgres'
+  password: 'postgres'
+  synchronize: true
+
+jwt:
+  expiresIn: 360000
+  secret: 'artqvaradzmurad'
